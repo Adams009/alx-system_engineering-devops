@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this script makes localhost
+
+nc -l localhost 98
