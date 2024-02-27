@@ -1,7 +1,8 @@
 /*
  *  * File: 102-zombie.c
  *   * Auth: Brennan D Baraban
- *    */
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +14,8 @@
  *  * infinite_while - Run an infinite while loop.
  *   *
  *    * Return: Always 0.
- *     */
+ *
+ */
 int infinite_while(void)
 {
 	while (1)
@@ -27,7 +29,8 @@ int infinite_while(void)
  *  * main - Creates five zombie processes.
  *   *
  *    * Return: Always 0.
- *     */
+ *
+ */
 int main(void)
 {
 	pid_t pid;
