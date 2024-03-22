@@ -9,4 +9,3 @@ exec { 'install_flask':
   creates => '/usr/local/lib/python3.8/dist-packages/Flask-2.1.0.dist-info',
   require => Package['python3-pip'],
 }
-
