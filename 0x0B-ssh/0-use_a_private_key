@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# creating ssh connector
+
+ssh ubuntu -i ~/.ssh/school
