@@ -42,6 +42,7 @@ backend easyclick-tech-backend
     balance roundrobin
     server 525343-web-01 35.174.200.219:80 check
     server 525343-web-02 54.208.230.12:80 check
+"
 
 # shellcheck disable=SC2154
 echo "$server_config" | sudo dd status=none of=/etc/haproxy/haproxy.cfg
