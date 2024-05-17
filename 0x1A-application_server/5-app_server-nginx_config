@@ -2,8 +2,11 @@
 
 server {
     # Listen on port 80.
-    listen      80 default_server;
-    listen      [::]:80 default_server;
+    listen 80 default_server;
+    location /hbnb_static { alias /data/web_static/current/;}
+    listen [::]:80 default_server;
+    root /var/www/html;
+    index index.html index.htm index.nginx-debian.html
 
     # Use server IP as domain name
     server_name _;
